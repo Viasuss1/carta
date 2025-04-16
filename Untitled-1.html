@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Cartita de Amor 💕</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #fff0f5, #ffe6f0);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .carta {
+      background: #fffafc;
+      border: 6px dashed #ffb6c1;
+      border-radius: 30px;
+      padding: 40px;
+      width: 480px;
+      box-shadow: 0 0 30px rgba(255, 182, 193, 0.6);
+      text-align: center;
+      position: relative;
+      animation: aparecer 1s ease-out;
+    }
+
+    @keyframes aparecer {
+      0% { opacity: 0; transform: scale(0.9); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+
+    h1 {
+      color: #ff69b4;
+      font-size: 2.2em;
+      margin-bottom: 20px;
+    }
+
+    .rosas {
+      font-size: 2em;
+      margin: 10px 0 20px;
+    }
+
+    p {
+      color: #5c3a4b;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .firma {
+      margin-top: 30px;
+      font-style: italic;
+      color: #c71585;
+    }
+
+    .corazon {
+      font-size: 3em;
+      margin-top: 15px;
+      animation: latido 1s infinite;
+    }
+
+    @keyframes latido {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+  </style>
+</head>
+<body>
+  <div class="carta">
+    <h1>💌 Mi Cartita de Amor 💌</h1>
+    <div class="rosas">🌹 🌹 🌹</div>
+    <p>
+      Mi amor por ti es como una rosa eterna,<br>
+      delicada, hermosa y llena de vida.<br><br>
+      Cada día contigo es un poema,<br>
+      y tú, la inspiración más linda que existe. 💗
+    </p>
+    <div class="rosas">🌹 🌹 🌹</div>
+    <p class="firma">Con todo mi cariño,<br>✨ Tu persona especial ✨</p>
+    <div class="corazon">❤️</div>
+  </div>
+</body>
+</html>
